@@ -1,0 +1,67 @@
+<!doctype html>
+ <html lang="en">
+    <link rel="stylesheet" href="styleSheet/style.css" />
+    <link media="print" rel="stylesheet" href="styleSheet/print.css" /><!------this stylesheet changes the backgrownd color to white when printed-->
+    
+    <meta name="author" content="Adriana Vieira Amancio">
+
+    <head>
+        <title>Adriana</title>
+    </head>
+    <head>
+        <title>A.V.A</title>
+         
+    </head>
+    <body>
+        <h1>AVA</h1>
+        <p>Adriana Vieira Amancio</p>
+         
+        <div class="navigation">
+            <a href="index.html">Home</a>
+          
+            <div class="dropdown">
+              <button class="dropbtn">Portifolio
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="portifolio.html">Pictures</a>
+                    <a href="transition.html">Transitions</a>
+                    <a href="canvas.html">Canvas</a>
+                    <a href="json.html">Json</a>
+                    <a href="map.html">Map</a>
+              </div>
+              </div>
+              <a href="contact.html">Contact</a></a>
+            </div>
+          </div>
+
+        <div class="page-container">
+
+            <form id="myForm" action="" novalidate>
+
+                <div class="form-control">
+                    <label for="fullName">Full name</label><br>
+                    <input required id="fullName" type="text" name="full_name" />
+                    <div class="field-error"></div>
+                </div>
+
+                <div class="form-control">
+                    <label for="emailAddress">Your email</label><br>
+                    <input required id="emailAddress" type="email" name="email_address" />
+                    <div class="field-error"></div>
+                </div>
+
+                <div class="form-control">
+                    <label for="message">How can I help you?</label><br>
+                    <textarea id="message" required> 
+                    </textarea>
+            </div>
+                <input type="submit" value="Submit it!" />
+
+            </form>
+        </div>
+
+        <script src="script/form.js"></script>
+
+    </body>
+</html>

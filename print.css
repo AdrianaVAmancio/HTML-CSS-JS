@@ -1,0 +1,201 @@
+/* Code by: Adriana Vieira Amancio */
+
+body {
+    /*whole page style*/
+    background-color: #ddd;
+    font-family:  'Courier New', Courier, monospace;
+    
+}
+
+/*Navegation bar*/
+.navigation {
+    /*reset default styles*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation a:hover {
+      background-color: #E8D5CC;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/***********************************************Font style *************************************/
+
+h1, p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: normal;     
+}
+
+
+h2{
+    text-align: center;
+    font-family:  'Courier New', Courier, monospace;
+    color: #99A799;
+    font-size: 7em;
+    font-weight: bold;   
+}
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: normal;   
+    padding: 5em 15em 0em 15em;
+  
+
+}
+
+h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: bold;   
+}
+
+/***********************************************Video style *************************************/
+video{
+   padding-left: 37em;
+}
+/*********************************************** map *************************************/
+
+body {
+    font-family: sans-serif;
+    background-color:  #ddd;
+}
+
+.page-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#myMap {
+    border: 3px solid #939693; 
+    width: 100%;
+    height: 400px;
+}
+
+/***********************************************Form style *************************************/
+.page-container{
+    padding-top: 10em;
+}
+
+.form-control{
+    font-family:  'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: normal;  
+    padding-bottom: 2em;
+}
+
+/***********************************************Image galery style *************************************/
+.imgcontainer{
+    padding-top: 5em ;
+    padding-bottom: 2em;
+}
+img {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 10px; 
+    width: 250px; 
+  }
+  
+  /* Add a hover effect (blue shadow)*/
+  img:hover {
+    box-shadow: 0 0 2px 1px #99A799;
+    max-width: 100%;
+    transform: scale(2.5);
+    transition: all 1s ease-in-out;
+  } 
+
+/***********************************************transitions style *************************************/
+h5{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: bold;   
+    font-size: 2em;
+  
+}
+.transition-links,
+.transition-classes {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: bold
+}
+.transition-classes {
+    flex-direction: column;
+}
+
+/* 1. Transitioning when user hovers on a link */
+
+.transition-link {
+    padding: 3em;
+    text-decoration: none;
+    color: #99A799;
+    border-radius: 8px;
+}
+
+.transition-links a:hover {
+    background-color: #E8D5CC;
+    color: #fff;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+/* 2. Transitioning triggered by JavaScript */
+.target {
+    padding: 3em;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 2em;
+    background-color: #E8D5CC;
+}
+.active-target {
+    font-size: 3em;
+    background-color: #9BB3A8;
+    transition:  background-color 1s ease-in-out, font-size 1s ease-in-out;
+}
+
+/***********************************************canvas style *************************************/
+#myCanvas{
+    display: block;
+    margin: 5em auto;
+ 
+}
+
+/***********************************************json style *************************************/
+ul{
+    list-style: none;
+    color: #99A799;
+    font-family: 'Courier New', Courier, monospace;
+}
+h6, p1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: normal;   
+    font-size: 2em; 
+}
+
+h7{
+    font-family: 'Courier New', Courier, monospace;
+    color: #99A799;
+    font-weight: bold;   
+    font-size: 2em; 
+    
+}

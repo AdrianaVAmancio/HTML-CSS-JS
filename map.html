@@ -1,0 +1,69 @@
+<!doctype html>
+ <html lang="en">
+  <link rel="stylesheet" href="styleSheet/style.css" />
+  <link media="print" rel="stylesheet" href="styleSheet/print.css" /><!------this stylesheet changes the backgrownd color to white when printed-->
+
+    <meta name="author" content="Adriana Vieira Amancio">
+
+   
+       <head>
+           <title>Adriana</title>
+       </head>
+       <head>
+           <title>A.V.A</title>
+           <p>Adriana Vieira Amancio</p>
+           
+       </head>
+       <body>
+            <h1>AVA</h1>
+             
+            <div class="navigation">
+                <a href="index.html">Home</a>
+              
+                <div class="dropdown">
+                  <button class="dropbtn">Portifolio
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="portifolio.html">All</a>
+                    <a href="transition.html">Transitions</a>
+                    <a href="canvas.html">Canvas</a>
+                    <a href="json.html">Json</a>
+                    <a href="map.html">Map</a>
+                  </div>
+                  </div>
+                  <a href="contact.html">Contact</a></a>
+                </div>
+              </div>
+
+
+            <h3>This map was generated combining 2 features: Leaflet API to draw the page itself, and  to be able to get and pin the user location I used Geolocation API.</h3>
+<!-- MAP and Geolocation / Load resources from leaflet -->
+
+    <p id = "status"></p>
+    <a id = "map-link" target="_blank"></a>
+
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Load our own CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <div class="page-container">
+
+        <p>
+            <button id="find-me">Show my location</button>
+        </p>
+
+        <!-- Element to insert the map into -->
+        <div id="myMap"></div>
+
+    </div>
+
+        
+
+    <script src="script/map.js"></script>
+
+</body>
+</html>
